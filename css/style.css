@@ -1,0 +1,129 @@
+/*=========header==========*/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.header {
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+.header__logo {
+    margin-left: 16px;
+}
+.logo__img {
+}
+.menu {
+    margin-top: 16px;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item + .menu__item {
+    margin-left: 30px;
+}
+.menu__item:hover {
+    border-bottom: 1px solid #001e64;
+}
+.menu__link {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001e64;
+}
+.phone {
+    margin-right: 43px;
+    margin-top: 11px;
+}
+.img__phone {
+}
+/*=========header-container=======*/
+.header__container {
+    background-image: url(../images/Group\ 21.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+}
+.title {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 95px;
+    color: #001e64;
+    max-width: 589px;
+    padding: 200px 0px 130px 120px;
+}
+.header__slider {
+    max-width: 522px;
+    padding-left: 112px;
+    padding-top: 57px;
+    padding-bottom: 135px;
+}
+.header-slider__item {
+}
+.header-slider__text {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.header-content-btn {
+}
+.header-content-box {
+}
+.header-content-link {
+}
+.slick-prev,
+.slick-next {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    position: absolute;
+    left: 40px;
+}
+.slick-prev {
+    top: 0;
+}
+.slick-next {
+    bottom: 0;
+}
+.slick-dots {
+    list-style: none;
+}
+.slick-dots button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 0.5;
+}
+.slick-active button {
+    opacity: 1;
+}
+.slick-dots button::before {
+    content: "0";
+}
